@@ -1,5 +1,7 @@
 # ender5-klipped
-Klipper configurations for an Ender 5 Pro, with modifications listed below. I have uploaded this information to help others, as the documentation on getting a working configuration is lacking. To install the Manta E3EZ board, you will need to expand the cutout on the side of the Ender 5's power supply/control box to allow access to the ethernet port, USB jacks, and HDMI display.  I am using the stock 24V power supply, but needed to move it over slightly for the Manta E3EZ board to fit. 
+Klipper configuration for an Ender 5 Pro, with modifications listed below. 
+
+I have uploaded this information to help others, as the documentation on getting a working configuration is somewhat lacking. To install the Manta E3EZ board, you will need to expand the cutout on the side of the Ender 5's power supply/control box to allow access to the ethernet port, USB jacks, and HDMI display.  I am using the stock 24V power supply, but needed to move it over slightly for the Manta E3EZ board to fit.  After installation, you will need to follow the instructions in the Manta E3EZ manual to create the sd card image, compile klipper, and install klipper on the MCUs.  After that is done, copy the printer.cfg configuration file over. 
 
 Documentation for configuring the Manta E3EZ is at https://github.com/bigtreetech/Manta-E3EZ.  Firmware for the CB1 can be downloaded from https://github.com/bigtreetech/CB1/releases.  After installation, update all software, but DO NOT force an update of the Linux kernel, which causes the device to no longer connect to the network.
 
@@ -17,17 +19,17 @@ This Ender 5 was upgraded with the following components:
 * PT1000 probe for extruder https://amzn.to/47gvACB
 * Small HDMI/USB touch screen for local status and control https://amzn.to/4oIPIDd 
 * 24V 5015 Part Cooling fan https://amzn.to/4hyyNRz
-* BIGTREETECH UPS 24V V1.0 Resume Printing While Power Off Module Sensor https://amzn.to/3X0iUd0 
+* BIGTREETECH SFS V2.0 Smart Filament Runout Sensor https://amzn.to/49pvOIT
+* 3D Printed BIQU H2 Mount for the Ender 5 https://www.thingiverse.com/thing:4889163
+* 3D Printed Part Cooling Fan Duct https://www.thingiverse.com/thing:5101234
 
 You will need these items to complete process:
-* 3d Printed BIQU H2 Mount for the Ender 5 https://www.thingiverse.com/thing:4889163
-* 3d Printed Part Cooling Fan Duct https://www.thingiverse.com/thing:5101234
-* Crimping Tool Connector Kit https://amzn.to/49sYIb6
+* Crimping Tool Connector Kit with Ribbon Wire https://amzn.to/49sYIb6
 
 I plan on adding these parts, but have not yet: 
-* BIGTREETECH SFS V2.0 Smart Filament Runout Sensor https://amzn.to/49pvOIT
+* BIGTREETECH UPS 24V V1.0 Resume Printing While Power Off Module Sensor https://amzn.to/3X0iUd0 
 
-Consumables and replacement parts that fit the BIQU H2 V2S:
+Consumables and replacement parts that fit the BIQU H2 V2S, if needed:
 * Nozzles https://amzn.to/4ogOBLj 
 * Bimetal Heatbreak https://amzn.to/4ojwaWe
 * Copper Heater Block https://amzn.to/4ogOBLj
