@@ -1,9 +1,13 @@
 # ender5-klipped
 Klipper configuration for an Ender 5 Pro, with modifications listed below. 
 
-I have uploaded this information to help others, as the documentation on getting a working configuration is somewhat lacking. To install the Manta E3EZ board, you will need to expand the cutout on the side of the Ender 5's power supply/control box to allow access to the ethernet port, USB jacks, and HDMI display.  I am using the stock 24V power supply, but needed to move it over slightly for the Manta E3EZ board to fit.  After installation, you will need to follow the instructions in the Manta E3EZ manual to create the sd card image, compile klipper, and install klipper on the MCUs.  After that is done, copy the printer.cfg configuration file over. 
+I have uploaded this information to help others, as the documentation on getting a working configuration is somewhat lacking. To install the Manta E3EZ board, you will need to expand the cutout on the side of the Ender 5's power supply/control box to allow access to the ethernet port, USB jacks, and HDMI display.  I am using the stock 24V power supply, but needed to move it over slightly for the Manta E3EZ board to fit.  
 
-Documentation for configuring the Manta E3EZ is at https://github.com/bigtreetech/Manta-E3EZ.  Firmware for the CB1 can be downloaded from https://github.com/bigtreetech/CB1/releases.  After installation, update all software, but DO NOT force an update of the Linux kernel, which causes the device to no longer connect to the network.
+Documentation for configuring the Manta E3EZ is at https://github.com/bigtreetech/Manta-E3EZ.  Firmware for the CB1 can be downloaded from https://github.com/bigtreetech/CB1/releases
+
+After installation, you will need to follow the instructions in the Manta E3EZ manual to create the sd card image, compile klipper, and install klipper on the MCUs.  After that is done, copy the moonraker.conf and printer.cfg configuration file over. 
+
+Update all software, but DO NOT force an update of the Linux kernel, which will break network connectivity!  
 
 This page contains affiliate links. As an Amazon Associate, I earn from qualifying purchases. This means I may receive a commission if you click on a link and make a purchase, at no extra cost to you.
 
